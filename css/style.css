@@ -80,6 +80,7 @@ main {
     font-family: 'Lexend Deca', sans-serif;
     border: 2px solid hsl(0, 0%, 95%);
     background-color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
 }
 
 .sedan_container .text_button span {
@@ -94,7 +95,7 @@ main {
     color: hsl(179, 100%, 13%);
 }
 
-.text_button:hover {
+.text_button:hover > span {
     color: hsl(0, 0%, 95%);
     background: transparent;
 }
