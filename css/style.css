@@ -95,9 +95,13 @@ main {
     color: hsl(179, 100%, 13%);
 }
 
+.text_button:hover {
+    background: transparent;
+}
+
 .text_button:hover > span {
     color: hsl(0, 0%, 95%);
-    background: transparent;
+  
 }
 
 @media screen and (max-width: 768px) {
